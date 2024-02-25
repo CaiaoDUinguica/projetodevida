@@ -36,8 +36,9 @@ body {
     color: var(--verde);
 }
 
+
 .botao {
-    font-family: "Crakra Petch", sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -60,9 +61,9 @@ body {
     display: block;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--branco)
+    border-bottom: 4px solid var(--verde);
 }
 
 .abas-textos{
@@ -70,7 +71,6 @@ body {
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
-
 .aba-conteudo.ativo{
     display:block;
 }
@@ -85,9 +85,10 @@ body {
 }
 .aba-conteudo-titulo-secundario{
     text-align: center;
-    color: var(--branco);
+    color: var(--verde);
     text-transform: uppercase;
 }
+
 
 @media screen and (min-width: 768px) {
     .botoes {
